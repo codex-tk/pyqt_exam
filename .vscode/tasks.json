@@ -7,6 +7,12 @@
             "label": "01.basic",
             "type": "shell",
             "command": "${config:python.pythonPath} ./01.basic/main.py",
+            
+        } ,
+        {
+            "label": "02.signal_slot",
+            "type": "shell",
+            "command": "${config:python.pythonPath} ./02.signal_slot/main.py",
             "group": {
                 "kind": "build",
                 "isDefault": true

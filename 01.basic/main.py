@@ -2,12 +2,10 @@
 
 import sys
 
-from Basic import Basic
-from WidgetFromUI import WidgetFromUI
-
 from PyQt5 import QtWidgets
 from PyQt5 import QtGui
-
+#from Basic import Basic
+from WidgetFromUI import WidgetFromUI
 
 if __name__ == "__main__":
     print("01.basic")
