@@ -13,6 +13,11 @@
             "label": "02.signal_slot",
             "type": "shell",
             "command": "${config:python.pythonPath} ./02.signal_slot/main.py",
+        } ,
+        {
+            "label": "03.charts",
+            "type": "shell",
+            "command": "${config:python.pythonPath} ./03.charts/main.py",
             "group": {
                 "kind": "build",
                 "isDefault": true
